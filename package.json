@@ -1,0 +1,32 @@
+﻿{
+    "name": "Scissor",
+    "version": "0.1.0",
+    "repository": "krilllind/scissor",
+    "homepage": "",
+    "description": "A popup tool for cropping images. Nuff said.",
+    "author": "Kristoffer Lindström <krillllind@gmail.com> (https://github.com/krilllind)",
+    "main": "/dist/scissor.js",
+    "jsnext:main": "/src/scissor.js",
+    "dependencies": {
+        "es6-promise": "^4.0.5"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-scss-lint": "~0.3.6",
+        "grunt-sass": "~1.2.1",
+        "grunt-contrib-uglify": "~0.5.0",
+        "grunt-contrib-watch": "~1.0.0"
+    },
+    "contributors": [ ],
+    "keywords": [
+        "scissor",
+        "crop",
+        "cropping",
+        "tool"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "bugs": "https://github.com/krilllind/scissor/issues",
+    "license": "MIT"
+}
