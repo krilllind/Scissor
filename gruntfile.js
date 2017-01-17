@@ -11,18 +11,18 @@ module.exports = function (grunt) {
                 sourceMap: true
             },
             dist: {
-                files: { '/src/scissor.css': '/src/utils/*.scss' }
+                files: { '/src/scissor.css': '/src/**/*.scss' }
             }
         },
         uglify: {
             options: {
                 sourceMap: true
             },
-            core: { files: { '/src/scissor.min.js': ['/src/utils/*.js'] } }
+            core: { files: { '/src/scissor.min.js': ['/src/**/*.js'] } }
         },
         watch: {
-            assets: { files: ['/src/utils/**/*.scss'], tasks: ['sass'] },
-            scripts: { files: ['/src/utils/**/*.js'], tasks: ['uglify'] }
+            assets: { files: ['/src/**/*.scss'], tasks: ['sass'] },
+            scripts: { files: ['/src/**/*.js'], tasks: ['uglify'] }
         }
     });
 
